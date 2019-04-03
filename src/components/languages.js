@@ -17,8 +17,7 @@ class Languages extends Component {
             avatar: item.avatar_url,
             location: item.lcoation,
             githubLink: item.html_url,
-            show: !this.state.show  
-
+            show: !this.state.show,
         })
         console.log(item)
     }

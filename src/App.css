@@ -1,2 +1,8 @@
 .my-card{
+  position: fixed;
+  top: 15%;
+  left: 30%;
+  border: 2px solid  rgba(19, 19, 19, 0.565);
+  padding: 2%;
+  background-color: rgba(19, 19, 19, 0.165);
 }

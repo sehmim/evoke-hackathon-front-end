@@ -5,7 +5,7 @@ class LandingPage extends Component {
   render() {
     return (
       <div>
-        {/* <GoogleMapComponent></GoogleMapComponent> */}
+        <GoogleMapComponent></GoogleMapComponent>
         <div>
             <Languages></Languages>
         </div>
