@@ -1,3 +1,6 @@
+*{
+  text-decoration: none !important;
+}
 .my-card{
   position: fixed;
   top: 15%;
@@ -5,4 +8,19 @@
   border: 2px solid  rgba(19, 19, 19, 0.565);
   padding: 2%;
   background-color: rgba(19, 19, 19, 0.165);
+  z-index: 1;
+}
+.landing-page{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.mycard{
+  cursor: pointer;  
+}
+
+
+.pop-up-card{
 }

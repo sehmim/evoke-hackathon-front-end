@@ -1,0 +1,60 @@
+.body-ggl{
+    flex-direction: row;
+    display: flex;
+    flex-flow: column wrap;
+    height: 90vh;
+    cursor: pointer
+}
+
+.body-ggl-1{
+    width: 50%;
+    height: 50%;
+    perspective: 150rem;
+    transition: all .5s ease-out;
+}
+.body-ggl-1:hover{
+    background-color: rgba(255, 0, 0, 0.337)
+}
+
+.body-ggl-2{
+    width: 50%;
+    height: 50%;
+    perspective: 150rem;
+    transition: all .5s ease-out;
+}
+.body-ggl-2:hover{
+    background-color: rgba(84, 255, 37, 0.337)
+}
+
+.body-ggl-3{
+    width: 50%;
+    height: 50%;
+    perspective: 150rem;
+    transition: all .5s ease-out;
+}
+.body-ggl-3:hover{
+    background-color: rgba(0, 166, 255, 0.337)
+}
+
+.body-ggl-4 {
+    width: 50%;
+    height: 50%;
+    perspective: 150rem;
+    transition: all .5s ease-out;
+}
+.body-ggl-4:hover{
+    color: white;
+    background-color: rgba(163, 41, 187, 0.139)
+}
+.body-ggl-4-img{
+    position: relative;
+    top: -135px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    perspective: 150rem;
+    transition: all .5s ease-out;
+}
+.body-ggl-4-img:hover{
+    opacity: .40;
+}

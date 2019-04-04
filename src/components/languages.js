@@ -11,6 +11,12 @@ class Languages extends Component {
         location: '',
         show: false
     }
+    INITIAL_STATE = {
+        login: '',
+        avatar: '',
+        location: '',
+        show: false 
+    }
     viewHandle = ( item )=> {
         this.setState({
             login: item.login,
@@ -19,7 +25,11 @@ class Languages extends Component {
             githubLink: item.html_url,
             show: !this.state.show,
         })
-        console.log(item)
+    }
+    viewHandleTwo = ()=> {
+        this.setState({
+            ...this.INITIAL_STATE
+        })
     }
   render() {  
     return (
@@ -28,7 +38,7 @@ class Languages extends Component {
             {
                 data.items.map( (item, index)=> {
                     return (
-                    <a onClick={()=> this.viewHandle(item)} className="card-panel hoverable collection-item avatar">
+                    <a onClick={()=> this.viewHandle(item)} className="mycard card-panel hoverable collection-item avatar">
                         <img src={item.avatar_url} className="circle"></img>
                         <h4> { item.login }</h4>
                             <p><b>Location</b><br></br>

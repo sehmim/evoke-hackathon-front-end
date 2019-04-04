@@ -7,6 +7,12 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar></Navbar>
+        <h1 className="center">
+          MOST USED PROGRAMMING LANGUAGES IN CANADA
+        </h1>
+        <h5 className="center">
+          Only Cities That Matter (:
+        </h5>
         <LandingPage></LandingPage>
       </div>
     );
