@@ -24,3 +24,9 @@
 
 .pop-up-card{
 }
+
+.circle{
+  position: relative !important;
+  width: 300px !important;
+  height: 300px !important;
+}
